@@ -1,0 +1,227 @@
+body{
+	width: 100%;
+	/*height: 100vh;*/
+	/*background-color: blue;*/
+	/*background-position: center;*/
+	/*background-size: cover;*/
+}
+
+
+.centerDiv{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.rectangle-large-vertical{
+	width: 400px;
+	height: 600px;
+	background-color: black;
+	border-radius: 5px;
+}
+
+.rectangle-large-horizontal{
+	width: 700px;
+	height: 400px;
+	background-color: black;
+	border-radius: 5px;
+}
+
+.rectangle-large-horizontal-full-width{
+	width: 100%;
+	height: 400px;
+	background-color: black;
+	border-radius: 5px;
+}
+
+
+.small-padding{
+	padding-top: 120px;
+	padding-bottom: 80px;
+}
+
+.medium-padding{
+	padding-top: 250px;
+	padding-bottom: 80px;
+}
+
+.large-padding{
+	padding-top: 350px;
+	padding-bottom: 80px;
+}
+
+.extra-large-padding{
+	padding-top: 550px;
+	padding-bottom: 80px;
+}
+
+
+.extra-large-circle{
+	border-radius: 50%;
+	overflow: hidden;
+	background: #FF7A59;
+	width: 800px;
+	height: 800px;
+}
+
+.large-circle{
+	border-radius: 50%;
+	overflow: hidden;
+	background: #FF7A59;
+	width: 400px;
+	height: 400px;
+}
+
+.medium-circle{
+	border-radius: 50%;
+	overflow: hidden;
+	background: #FF7A59;
+	width: 200px;
+	height: 200px;
+}
+
+.small-circle{
+	border-radius: 50%;
+	overflow: hidden;
+	background: #FF7A59;
+	width: 100px;
+	height: 100px;
+}
+
+.smaller-circle{
+	border-radius: 50%;
+	overflow: hidden;
+	background: #FF7A59;
+	width: 50px;
+	height: 50px;
+}
+
+.extra-large-square{
+	border-radius: 5px;
+	overflow: hidden;
+	background: #FF7A59;
+	width: 800px;
+	height: 800px;
+}
+
+.large-square{
+	border-radius: 5px;
+	overflow: hidden;
+	background: #FF7A59;
+	width: 400px;
+	height: 400px;
+}
+
+.medium-square{
+	border-radius: 5px;
+	overflow: hidden;
+	background: #FF7A59;
+	width: 300px;
+	height: 300px;
+}
+
+.small-square{
+	border-radius: 5px;
+	overflow: hidden;
+	background: #FF7A59;
+	width: 150px;
+	height: 150px;
+}
+
+.smaller-square{
+	border-radius: 5px;
+	overflow: hidden;
+	background: #FF7A59;
+	width: 50px;
+	height: 50px;
+}
+
+.fill-square{
+	width: 100%;
+	min-height: 300px;
+	border-radius: 5px;
+}
+
+.full-image{
+	/*height: 100%;*/
+	background-position: center;
+	background-size: cover;
+
+}
+
+.image_{
+	transition: 1s ease-in;
+}
+
+.image_:hover{
+	cursor: pointer;
+	transform: scale(1.5);
+
+}
+
+
+.box-shadow-1{
+	overflow: hidden;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.box-shadow-2{
+	overflow: hidden;
+	box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.box-shadow-3{
+	overflow: hidden;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.box-shadow-4{
+	overflow: hidden;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.box-shadow-5{
+	overflow: hidden;
+	box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.grey-background{
+	background-color: #f8f9f9;
+}
+
+.shift-right{
+	padding-left: 50px;
+}
+
+.shift-left{
+	padding-right: 50px;
+}
+
+
+footer{
+	background-color: #34495e;
+	width: 100%;
+	height: 500px;
+	color:  white;
+}
+
+.image_modal, .img-fluid{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
